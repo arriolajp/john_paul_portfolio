@@ -1,0 +1,67 @@
+header{
+    min-height: 100vh;
+}
+.top-bar {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #111; 
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+  }
+  
+  .top-bar p {
+    display: inline-block;
+    animation: scroll-left 25s linear infinite;
+    font-size: 1.2rem; 
+  }
+
+  .top-bar p:hover {
+    animation-play-state: paused;
+  }
+  
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .name{
+    height: 20vh;
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: flex;
+  }
+
+  .name h1{
+    font-size: 70px;
+    align-self:last baseline;
+  }
+
+  .background{
+    background-color: var(--pink-color);
+    height: 75vh;
+    border-bottom: solid 1px black;
+  }
+
+.intro1{
+    width: 20%;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.intro2{
+    width: 20%;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
