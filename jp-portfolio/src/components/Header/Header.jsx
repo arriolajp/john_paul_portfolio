@@ -17,6 +17,15 @@ const TimeDisplay = () => {
 };
 
 const Header = ()  =>{
+  const [backColor, setBackColor] = useState('#FE1CA7'); 
+
+  const changeBackground = () => {
+    const colors = ['#3C28FC', '#F71F1F', '#6a4c93', '#ffca3a', '#FE1CA7'];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    setBackColor(randomColor);
+    
+  };
+
   return (
     <header>
       <div className="top-bar">
@@ -27,14 +36,16 @@ const Header = ()  =>{
       <div className="name">
           <h1>JOHN PAUL ARRIOLA</h1>
       </div>
-      <div className="background">
+      <div className="background"
+      onClick={changeBackground}
+      style={{ backgroundColor: backColor }}>
         <div className="intro1">
             <p>My name is JP! </p>
         </div>
         <div className="intro2">
             <p>I'm an aspiring software developer and student exploring new creations, art, and experiences. I'd love to create your next website or build your next idea.</p>
         </div>    
-        <div><TimeDisplay/></div>
+        <div className="time"><TimeDisplay/></div>
       </div>
     
     </header>

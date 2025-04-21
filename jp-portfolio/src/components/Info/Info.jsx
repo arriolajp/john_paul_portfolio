@@ -3,14 +3,9 @@ import './Info.css';
 
 const projects = [
   {
-    title: "Mood Maps",
-    description: "Emotion-recognizing video assistant for therapists",
-    link: "https://github.com/yourusername/mood-maps"
-  },
-  {
     title: "Highscorify",
     description: "Arcade-themed Spotify track generator",
-    link: "https://github.com/yourusername/highscorify"
+    link: "https://github.com/arriolajp/highscorify"
   },
   {
     title: "TheRoute",

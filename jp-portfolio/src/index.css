@@ -2,8 +2,7 @@
   --pink-color: #FF05AC;
   --black-color: black;
   --white-color: white;
-  --blue-color: #00F6FF;
-  
+  --blue-color: #00F6FF; 
 }
 
 *{
@@ -18,6 +17,7 @@
 html,body{
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
