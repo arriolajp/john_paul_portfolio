@@ -18,3 +18,14 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+
+  .dragdiv {
+    padding: 8rem;
+    color: blueviolet;
+    cursor: grabbing;
+    font-size: medium;
+    font-weight: 600;
+    font-family:
+        'Trebuchet MS', 'Lucida Sans Unicode',
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

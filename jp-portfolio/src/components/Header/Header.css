@@ -1,68 +1,37 @@
 header{
     min-height: 100vh;
+    
 }
 .top-bar {
     width: 100%;
+    background-image: url("/background.jpg");
     overflow: hidden;
-    white-space: nowrap;
-    background-color: #111; 
-    color: white;
+    white-space: nowrap; 
     padding-top: 5px;
     padding-bottom: 5px;
     position: relative;
   }
   
-  .top-bar p {
-    display: inline-block;
-    animation: scroll-left 25s linear infinite;
-    font-size: 1.2rem; 
-  }
-
-  .top-bar p:hover {
-    animation-play-state: paused;
-  }
-  
-  
-  @keyframes scroll-left {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  
   .name{
     height: 20vh;
-    background-color: white;
-    border-bottom: 1px solid black;
+   
     display: flex;
   }
 
   .name h1{
     font-size: 70px;
     align-self:last baseline;
-    animation: spinY 10s linear infinite;
-    transform-style: preserve-3d;
-    perspective: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
 
-  @keyframes spinY {
-    0% {
-      transform: rotateY(0deg);
-    }
-    50% {
-      transform: rotateY(180deg); 
-    }
-    100% {
-      transform: rotateY(360deg); 
-    }
-  }
 
   .background{
-    background-color: var(--pink-color);
-    height: 75vh;
-    border-bottom: solid 1px black;
+    background-color: white;
+    height: 80vh;
+    background-size: cover;
+    background-image: url("/background.jpg");
   }
 
 .intro1{
