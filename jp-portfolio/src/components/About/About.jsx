@@ -14,7 +14,9 @@ const TimeDisplay = () => {
   }, []);
 
   return (
+    <div className="time-box">
     <p>Current time: {time.toLocaleTimeString()}</p>
+    </div>
   );
 };
 
@@ -25,7 +27,7 @@ const About = ()  =>{
       <div className="top-bar">
         <div className="name">
           <Link to="/">
-            <h1>jumpball</h1>
+            <h1>japes</h1>
             </Link>
         </div>
       </div>

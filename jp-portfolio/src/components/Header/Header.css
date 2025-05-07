@@ -59,19 +59,13 @@ header{
   }
 
 .intro1{
-    width: 20%;
+    width: 12vw;
     font-size: 20px;
     position: absolute;
     bottom: 10px;
     left: 10px;
-}
-
-.intro2{
-    width: 20%;
-    font-size: 20px;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+    background-color: rgb(224, 224, 224);
+    border: ridge 8px rgb(6, 37, 81)
 }
 
 .time{
@@ -98,9 +92,8 @@ header{
 }
 
 .text-box h1{
-  font-size: 50px;
   margin-bottom: 10px;
-  font-size: clamp(2rem, 2.5vw, 3.5rem);
+  font-size: clamp(2.3rem, 2.5vw, 3.5rem);
 }
 
 .main-nav-list{
@@ -130,4 +123,10 @@ a{
   font-size: clamp(1rem, 1.5vw, 2rem);
   margin-bottom: 20px;
   color: rgb(4, 4, 55);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.time-box{
+  background-color: rgb(224, 224, 224);
+  border: ridge 8px rgb(6, 37, 81)
 }
