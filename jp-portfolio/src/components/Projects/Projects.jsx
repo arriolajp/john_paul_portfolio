@@ -1,7 +1,7 @@
 import React from 'react';
-import './Info.css';
+import './Projects.css';
 
-const projects = [
+const sites = [
   {
     title: "Highscorify",
     description: "Arcade-themed Spotify track generator",
@@ -14,12 +14,12 @@ const projects = [
   }
 ];
 
-const Info = () => {
+const Projects = () => {
   return (
     <section className="portfolio">
       <h2>Projects</h2>
       <div className="portfolio-grid">
-        {projects.map((project, index) => (
+        {sites.map((project, index) => (
           <a key={index} className="portfolio-card" href={project.link} target="_blank" rel="noopener noreferrer">
             <div className="portfolio-card-content">
               <h3>{project.title}</h3>
@@ -32,4 +32,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default Projects;

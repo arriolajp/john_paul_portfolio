@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import "./Header.css";
+import "./About.css";
 
 
 const TimeDisplay = () => {
@@ -18,7 +18,7 @@ const TimeDisplay = () => {
   );
 };
 
-const Header = ()  =>{
+const About = ()  =>{
 
   return (
     <header>
@@ -42,11 +42,12 @@ const Header = ()  =>{
           </ul>
         </div>
         <div className="text-box">
-          <h1>Hey, I'm JP!</h1>
-          <p>I like creating things, and this website is one of them. Check out my blog from my last internship, look into my projects, or just hang around.</p>
-          <p>I plan to put changeable themes on this website, so look out for those!</p>
-          <h2>Inspiration</h2>
-          <p>I hope to create things that showcase who I am. Enjoy!</p>
+          <h1>About me</h1>
+          <p>I wanted to pursue a combination of art and engineering, so I became a computer science student. I'm finding out what artistic aspects I can apply to technology, while also keeping my hobbies as an artist and life as a student in balance.</p>
+           <p>I hope to turn this little project into a career, but in the meantime you can find me running. I also enjoy photography, cats, origami, and video games.</p>
+          <h2>About this site</h2>
+          <p>I am inspired by the brutal, exploratory designs of the 2000's. I grew up with games like Minesweeper and Poptropica, and I want to keep that stylistic and artistic style alive.</p>
+         
       </div>  
         <div className="time"><TimeDisplay/></div>
       </div>
@@ -54,4 +55,4 @@ const Header = ()  =>{
   )
 }
 
-export default Header;
+export default About;
