@@ -28,8 +28,10 @@ html,body{
   background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
+  cursor: url("/cursor.png"),auto;
 }
 
 a{
   text-decoration: none;
+  cursor:grabbing
 }
