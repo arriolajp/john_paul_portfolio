@@ -16,3 +16,10 @@
     width: 64px;
     height: 64px;
   }
+
+.text-box a{
+    padding: min(2em, 2%);
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}

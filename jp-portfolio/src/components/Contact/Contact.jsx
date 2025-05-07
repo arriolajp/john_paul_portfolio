@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Contact.css";
+import { Link } from 'react-router-dom';
+import TimeDisplay from '../TimeDisplay/TimeDisplay';
 import { linkedin } from '../../assets';
 
 
@@ -16,12 +18,40 @@ const LinkedIn = () => (
 
 const Contact = ()  =>{
   return (
-      <div className="contact">
-          <h3>Contact</h3>
-          <div className="linkedin">
-          <LinkedIn/>
-        </div>
+    <header>
+    <div className="top-bar">
+      <div className="name">
+        <Link to="/">
+          <h1>japes</h1>
+          </Link>
       </div>
+    </div>
+    <div className="background">
+      <div className="intro1">
+          <p>@John Paul Arriola </p>
+      </div>
+      <div className="links">
+        <ul className="main-nav-list">
+        <li><Link to="/about">about</Link></li>
+          <li><Link to="/blog">blog</Link></li>
+          <li><Link to="/projects">projects</Link></li>
+          <li><Link to="/contact">contact</Link></li>
+        </ul>
+      </div>
+      <div className="text-box">
+        <h1>Contact</h1>
+        <LinkedIn />
+        <a
+            href="mailto:arriolajohnpaul04@gmail.com?subject=Inquiry&body=Hi JP, I would like to inquire about..."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            arriolajohnpaul04@gmail.com
+          </a>
+    </div>  
+      <div className="time"><TimeDisplay/></div>
+    </div>
+  </header>
   )
 }
 
