@@ -1,29 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import "./Header.css";
-
-
-const TimeDisplay = () => {
-  const [time, setTime] = useState(new Date());
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTime(new Date());
-    }, 1000); 
-    return () => clearInterval(interval);
-  }, []);
-
-  return (
-    <div className="time-box">
-      <p>Current time: {time.toLocaleTimeString()}</p>
-    </div>
-  );
-};
+import TimeDisplay from '../TimeDisplay/TimeDisplay';
 
 const Header = ()  =>{
 
   return (
     <header>
+      
       <div className="top-bar">
         <div className="name">
           <Link to="/">

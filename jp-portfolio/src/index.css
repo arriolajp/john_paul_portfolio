@@ -20,9 +20,15 @@ html,body{
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
+  background-color: white;
+    min-height: 100vh;
+    height: auto;
+    background-image: url("/background2.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
 
 a{
   text-decoration: none;

@@ -56,6 +56,7 @@ header{
     background-image: url("/background.jpg");
     background-repeat:repeat;
     background-size: cover;
+    
   }
 
 .intro1{
@@ -64,7 +65,7 @@ header{
     position: absolute;
     bottom: 10px;
     left: 10px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(240, 232, 232);
     border: ridge 8px rgb(6, 37, 81)
 }
 
@@ -127,6 +128,6 @@ a{
 }
 
 .time-box{
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(240, 232, 232);
   border: ridge 8px rgb(6, 37, 81)
 }

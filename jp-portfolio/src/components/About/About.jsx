@@ -1,24 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
+import TimeDisplay from '../TimeDisplay/TimeDisplay';
 import "./About.css";
 
 
-const TimeDisplay = () => {
-  const [time, setTime] = useState(new Date());
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTime(new Date());
-    }, 1000); 
-    return () => clearInterval(interval);
-  }, []);
-
-  return (
-    <div className="time-box">
-    <p>Current time: {time.toLocaleTimeString()}</p>
-    </div>
-  );
-};
 
 const About = ()  =>{
 
@@ -33,7 +18,7 @@ const About = ()  =>{
       </div>
       <div className="background">
         <div className="intro1">
-            <p>My name is JP! </p>
+            <p>@John Paul Arriola</p>
         </div>
         <div className="links">
           <ul className="main-nav-list">
