@@ -12,6 +12,7 @@ const Post01 = () => {
         <div className="post-box">
           <h1>Rocket X GDYT X WSU</h1>
           <p>April 11, 2025</p>
+          <p>By John Paul Arriola</p>
           <h2>What Did I Do?</h2>
             <p>
               In the spring of 2024, I received a broadcast notification from the Honors College at Wayne State University to apply for the Rocket Mortgage, Grow Detroit’s Young Talent, and WSU Honors College program to mentor Detroit Public School students. I applied and the program accepted me, so during the summer of 2024, I had the amazing opportunity to mentor Detroit Public School students in the field of technology.

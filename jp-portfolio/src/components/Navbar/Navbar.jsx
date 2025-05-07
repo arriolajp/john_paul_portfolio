@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TimeDisplay from "../TimeDisplay/TimeDisplay";
+import "./Navbar.css";
 
 const Navbar = () => {
     return(

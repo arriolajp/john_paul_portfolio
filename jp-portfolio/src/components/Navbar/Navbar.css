@@ -1,0 +1,91 @@
+.top-bar {
+    width: 100%;
+    background-image: url("/background.jpg");
+    overflow: hidden;
+    white-space: nowrap; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+  }
+  
+  .name{
+    height: 20vh;
+    display: flex;
+  }
+
+  .name a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .name h1{
+    font-size: clamp(5rem, 2.5vw, 3.5rem);
+    align-self:last baseline;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 
+    -1px -1px 0 rgb(200, 63, 221), 
+    1px -1px 0 rgb(200, 63, 221), 
+    -1px 1px 0 rgb(200, 63, 221),
+    1px 1px 0 rgb(200, 63, 221); 
+    color: rgb(10, 5, 26);
+  }
+
+  .name h1:hover{
+    color: rgb(200, 63, 221);
+    text-shadow: 
+    -1px -1px 0 rgb(10, 5, 26), 
+    1px -1px 0 rgb(10, 5, 26), 
+    -1px 1px 0 rgb(10, 5, 26),
+    1px 1px 0 rgb(10, 5, 26); 
+    transition: all .2s ease-in-out;
+  }
+  .background{
+    background-color: white;
+    min-height: 100vh;
+    height: auto;
+    background-size: cover;
+    background-image: url("/background.jpg");
+    background-repeat:repeat;
+    background-size: cover;
+    
+  }
+
+  .intro1{
+    width: 12vw;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgb(240, 232, 232);
+    border: ridge 8px rgb(6, 37, 81)
+}
+.main-nav-list{
+    display: flex;
+    justify-content: center;
+    gap: clamp(1rem, 2vw, 3rem);
+    text-align: center;
+    width: 100%;
+    margin-top: 10vh;
+    position: absolute;
+    list-style: none;
+  }
+  
+  .main-nav-list li{
+    color: rgb(255, 96, 205);
+    font-size: clamp(1.4rem, 1.5vw, 2rem);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .time-box{
+    background-color: rgb(240, 232, 232);
+    border: ridge 8px rgb(6, 37, 81)
+  }
