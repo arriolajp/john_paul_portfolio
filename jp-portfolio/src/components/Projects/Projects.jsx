@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
-import TimeDisplay from '../TimeDisplay/TimeDisplay';
 import "./Projects.css";
+import Navbar from '../Navbar/Navbar';
 
 
 
@@ -18,7 +17,7 @@ const sites = [
   },
   {
     title: "Portfolio Website",
-    description: "A personal portfolio showcasing my projects and skills",
+    description: "This website!",
     link: "https://github.com/arriolajp/john_paul_portfolio"
   }
 ];
@@ -28,31 +27,9 @@ const Projects = ()  =>{
 
   return (
     <header>
-      
-      <div className="top-bar">
-        <div className="name">
-          <Link to="/">
-            <h1>japes</h1>
-            </Link>
-        </div>
-      </div>
-      <div className="background">
-      <div className="time"><TimeDisplay/></div>
-        <div className="intro1">
-            <p>My name is JP! </p>
-        </div>
-        <div className="links">
-          <ul className="main-nav-list">
-          <li><Link to="/about">about</Link></li>
-            <li><Link to="/blog">blog</Link></li>
-            <li><Link to="/projects">projects</Link></li>
-            <li><Link to="/contact">contact</Link></li>
-          </ul>
-        </div>
-
-      
+      <Navbar />
       <div className="portfolio-container">
-      <div className="portfolio-box">
+      <div className="post-box">
               <h1>Projects</h1>
               <p>Check out my projects below:</p>
             </div>
@@ -66,7 +43,6 @@ const Projects = ()  =>{
         ))}
       </div>
       
-      </div>
     </header>
   )
 }

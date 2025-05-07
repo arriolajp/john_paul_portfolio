@@ -6,6 +6,7 @@
     
     font-size: clamp(1rem, 2vw, 1.5rem);
     border-bottom: solid 1px black;
+    
 }
 
 .portfolio h2{
@@ -26,6 +27,7 @@
     width: min(42em, 92%);
     left: 50%;
     transform: translateX(-50%);
+    
   }
   
   .portfolio-card:hover {
@@ -39,9 +41,14 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
 }
 
 .portfolio-box:hover{
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-box p{
+    font-family: "Red Hat Display", sans-serif;
 }

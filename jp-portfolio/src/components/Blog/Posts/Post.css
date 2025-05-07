@@ -1,0 +1,15 @@
+.post-box:hover{
+    transform: none;
+}
+
+.post-box{
+    background-color: rgb(240, 232, 232);
+    border: 8px ridge rgb(6, 37, 81);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.post-box p{
+    font-family: "Red Hat Display", sans-serif;
+}

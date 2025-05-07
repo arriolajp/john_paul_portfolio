@@ -1,34 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import TimeDisplay from '../../TimeDisplay/TimeDisplay';
-import "../Blog.css";
+import Navbar from "../../Navbar/Navbar";
+import "./Post.css";
 
 
 
 const Post01 = () => {
   return (
     <header>
-      <div className="top-bar">
-        <div className="name">
-          <Link to="/">
-            <h1>japes</h1>
-          </Link>
-        </div>
-      </div>
-      <div className="background">
-        <div className="intro1">
-          <p>@John Paul Arriola </p>
-        </div>
-        <div className="links">
-          <ul className="main-nav-list">
-            <li><Link to="/about">about</Link></li>
-            <li><Link to="/blog">blog</Link></li>
-            <li><Link to="/projects">projects</Link></li>
-            <li><Link to="/contact">contact</Link></li>
-          </ul>
-        </div>
+      <Navbar/>
         <div className="blog-container">
-        <div className="blog-box">
+        <div className="post-box">
           <h1>Rocket X GDYT X WSU</h1>
           <p>April 11, 2025</p>
           <h2>What Did I Do?</h2>
@@ -76,8 +57,6 @@ const Post01 = () => {
             </p>
           </div>
         </div>
-        <div className="time"><TimeDisplay /></div>
-      </div>
     </header>
   );
 };
