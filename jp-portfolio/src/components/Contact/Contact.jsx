@@ -2,6 +2,7 @@ import React from 'react';
 import "./Contact.css";
 import Navbar from '../Navbar/Navbar';
 import { linkedin } from '../../assets';
+import Footer from '../Footer/Footer';
 
 
 const LinkedIn = () => (
@@ -30,6 +31,7 @@ const Contact = ()  =>{
             arriolajohnpaul04@gmail.com
           </a>
     </div>  
+    <Footer/>
   </header>
   )
 }

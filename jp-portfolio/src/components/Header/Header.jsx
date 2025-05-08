@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import "./Header.css";
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const Header = ()  =>{
 
@@ -14,6 +15,7 @@ const Header = ()  =>{
           <h2>Inspiration</h2>
           <p>I hope to create things that showcase who I am. Enjoy!</p>
       </div>  
+      <Footer/>
     </header>
   )
 }

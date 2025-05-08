@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Navbar from '../Navbar/Navbar';
 import "./About.css";
+import Footer from '../Footer/Footer';
 
 
 
@@ -17,6 +18,7 @@ const About = ()  =>{
           <p>I am inspired by the brutal, exploratory designs of the 2000's. I grew up with games like Minesweeper and Poptropica, and I want to keep that stylistic and artistic style alive.</p>
          
       </div>  
+      <Footer/>
     </header>
   )
 }

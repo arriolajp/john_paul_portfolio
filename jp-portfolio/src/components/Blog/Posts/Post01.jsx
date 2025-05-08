@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from "../../Navbar/Navbar";
 import "./Post.css";
+import Footer from "../../Footer/Footer";
 
 
 
@@ -58,6 +59,7 @@ const Post01 = () => {
             </p>
           </div>
         </div>
+        <Footer/>
     </header>
   );
 };

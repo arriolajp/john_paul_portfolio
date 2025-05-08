@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import "./Projects.css";
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 
 
@@ -42,7 +43,7 @@ const Projects = ()  =>{
           </a>
         ))}
       </div>
-      
+      <Footer/>
     </header>
   )
 }

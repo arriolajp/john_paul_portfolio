@@ -1,0 +1,10 @@
+.footer{
+    color: rgb(255, 96, 205);
+    text-align: center;
+}
+
+.footer h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}

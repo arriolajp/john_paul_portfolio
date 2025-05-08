@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import "./Blog.css";
 import Navbar from '../Navbar/Navbar.jsx';
+import Footer from '../Footer/Footer.jsx';
 
 const Blog = () => {
   const blogPosts = [
@@ -29,6 +30,7 @@ const Blog = () => {
             ))}
           </div>
         </div>
+        <Footer/>
     </header>
   );
 };
